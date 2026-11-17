@@ -1,0 +1,28 @@
+# Local Python environments and caches from running examples
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local configuration and sensitive files
+.env
+.env.*
+.aws/
+.ssh/
+*.pem
+*.key
+credentials.*
+secrets.*
+
+# Editor, operating system, and temporary development files
+.vscode/
+.idea/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~
